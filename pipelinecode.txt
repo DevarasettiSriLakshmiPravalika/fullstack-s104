@@ -7,11 +7,11 @@ pipeline {
     }
 
     environment {
-        TOMCAT_URL = 'http://51.21.69.126:9090/manager/text'
+        TOMCAT_URL = 'http://http://16.16.112.189:9090/manager/text'
         TOMCAT_USER = 'admin'
         TOMCAT_PASS = 'admin'
 
-        MAIN_REPO = 'https://github.com/MidhunPalanisamy/fullstack-s104.git'
+        MAIN_REPO = 'https://github.com/DevarasettiSriLakshmiPravalika/fullstack-s104.git'
 
         BACKEND_DIR = 'crud_back'
         FRONTEND_DIR = 'crud_front'
@@ -74,4 +74,5 @@ pipeline {
         }
     }
 }
+
 
